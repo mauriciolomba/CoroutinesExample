@@ -8,8 +8,8 @@ internal class UserProfileRepository {
 
     suspend fun fetchUserData(): String {
         return withContext(Dispatchers.IO){
-            delay(7000L)
-            "José da Silva"
+            delay(5000L)
+            "Mauricio Lomba"
         }
     }
 
